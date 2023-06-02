@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React, {useState} from "react"
 import './App.css';
+import Header from './components/Header';
+import Container from "./components/Container";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("Home")
+  const handlePageChange = (page) => setCurrentPage(page);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <main style={{border: "2px solid red"}}>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Container currentPage={currentPage}  />
+   </main>
+  )
 }
 
 export default App;
