@@ -1,9 +1,4 @@
-
-
-
-
 # Michelle (Tia) Baker Brown Portfolio
-
 
 
 ## Table of Contents
