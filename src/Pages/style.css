@@ -1,3 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fcaf58;
+}
+
+.container {
+  width: 33.33%;
+  text-align: center;
+}
+
 .project-cards {
   display: flex;
   flex-wrap: wrap;
