@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/20-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/20-portfolio/static/js/main.55ccb57b.js",
-    "static/js/787.29762a15.chunk.js": "/20-portfolio/static/js/787.29762a15.chunk.js",
-    "static/media/logo.svg": "/20-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/20-portfolio/static/css/main.7dd7572f.css",
+    "main.js": "/20-portfolio/static/js/main.4863c874.js",
+    "static/js/787.31743eb4.chunk.js": "/20-portfolio/static/js/787.31743eb4.chunk.js",
+    "static/media/tbb.jpg": "/20-portfolio/static/media/tbb.fb72cafc7fa8eaebbd45.jpg",
+    "static/media/regex-tutorial.jpg": "/20-portfolio/static/media/regex-tutorial.0dc7eb1a741de921834f.jpg",
+    "static/media/readme-generator.jpg": "/20-portfolio/static/media/readme-generator.e6577a0e05da880d0071.jpg",
+    "static/media/logo-generator.jpg": "/20-portfolio/static/media/logo-generator.d4095bded0dc48b09ede.jpg",
+    "static/media/e-commerce-back-end.jpg": "/20-portfolio/static/media/e-commerce-back-end.b86b86e34040dfb6b2f6.jpg",
+    "static/media/social-media-routes.jpg": "/20-portfolio/static/media/social-media-routes.4b5fecec8012e66ea5a2.jpg",
+    "static/media/note-taker-2.jpg": "/20-portfolio/static/media/note-taker-2.4a7e95939db24e10e21d.jpg",
     "index.html": "/20-portfolio/index.html",
-    "main.073c9b0a.css.map": "/20-portfolio/static/css/main.073c9b0a.css.map",
-    "main.55ccb57b.js.map": "/20-portfolio/static/js/main.55ccb57b.js.map",
-    "787.29762a15.chunk.js.map": "/20-portfolio/static/js/787.29762a15.chunk.js.map"
+    "main.7dd7572f.css.map": "/20-portfolio/static/css/main.7dd7572f.css.map",
+    "main.4863c874.js.map": "/20-portfolio/static/js/main.4863c874.js.map",
+    "787.31743eb4.chunk.js.map": "/20-portfolio/static/js/787.31743eb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.55ccb57b.js"
+    "static/css/main.7dd7572f.css",
+    "static/js/main.4863c874.js"
   ]
 }
