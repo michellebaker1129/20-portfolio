@@ -19,7 +19,7 @@ const Container=({currentPage}) => {
       };
     
     return (
-        <main style={{backgroundColor: "gray", height: "100vh"}}>
+        <main>
             {renderPage()}
         </main>
     )

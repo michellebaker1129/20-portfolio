@@ -1,20 +1,28 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Button, Card } from 'react-bootstrap';
 
-function BasicExample({title}) {
+function ProjectCard({ project }) {
+  const { title, description, image, website, github, tech} = project;
+
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card className='project-card' style={{ maxWidth: '18rem' }}>
       <Card.Body>
+        <Card.Img variant="top" src={image || "https://placehold.co/600x400" } style={{marginBottom: '20px'}} />
         <Card.Title>{title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {description}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Text style={{fontSize: '0.7rem'}}>
+          {tech.join(', ')}
+        </Card.Text>
+        {/* Render a button for github link */}
+        <Button href={github} variant="primary" style={{
+          marginRight: '10px'
+        }}>GitHub</Button>
+        {/* Render a button for website link */}
+        <Button href={website} variant="primary">Website</Button>
       </Card.Body>
     </Card>
   );
 }
 
-export default BasicExample;
+export default ProjectCard;

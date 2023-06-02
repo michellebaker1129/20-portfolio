@@ -32,15 +32,17 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 TODO List
-1. Replace home with about
-2. Add photo or avatar
-3. Add bio
-4. Fill out project details 
-5. Add contact form (front end only)
-6. Make fields required and validated
-7. Add downloadable resume
-8. Add footer
-9. Add links to GitHub, LinkedIn, and Stack Overflow in footer
+<!-- 1. Replace home with about -->
+<!-- 2. Add photo or avatar -->
+<!-- 3. Add bio -->
+<!-- 4. Fill out project details  -->
+<!-- 5. Finish building project card component -->
+<!-- 6. Add contact form (front end only) -->
+<!-- readme ANTI PATTERN -->
+<!-- 7. Make fields required and validated -->
+<!-- 8. Add downloadable resume -->
+<!-- 9. Add footer -->
+<!-- 10. Add links to GitHub, LinkedIn, and Stack Overflow in footer -->
 
 
 
