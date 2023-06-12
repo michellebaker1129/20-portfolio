@@ -1,5 +1,6 @@
 # Michelle (Tia) Baker Brown Portfolio
 
+- (https://michellebaker1129.github.io/20-portfolio/)
 
 ## Table of Contents
 - [Description](#Description)
@@ -8,7 +9,7 @@
 - [Badges](#Badges)
 
 
--[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+- [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
 ### Description
